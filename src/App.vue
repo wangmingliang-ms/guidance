@@ -14,4 +14,5 @@ onHide(() => {
 <style>
 @import "colorui/main.css";
 @import "colorui/icon.css";
+@import "colorui/patch.css";
 </style>

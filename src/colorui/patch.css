@@ -1,0 +1,52 @@
+
+.cu-list.menu-avatar>.cu-item .content .cu-capsule .cu-tag.sm {
+    margin-left: 0;
+}
+
+.tags-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags-row .cu-tag.round {
+    margin-left: 0 !important;
+    margin-right: 12rpx;
+}
+
+.cu-list.menu-avatar.right.comment>.cu-item {
+    padding: 30upx;
+    height: auto
+}
+
+.cu-list.menu-avatar.right>.cu-item>.cu-avatar {
+    position: absolute;
+    right: 30upx;
+    left: initial;
+}
+
+.cu-avatar.xxl {
+    width: 144upx;
+    height: 144upx;
+    font-size: 2.5em;
+}
+
+.cu-avatar.inline{
+    height: 30upx;
+    width: 30upx;
+    align-self: initial!important;
+}
+
+.cu-timeline>.cu-item::before{
+    top: 8upx;
+}
+
+.cu-timeline>.cu-item {
+    padding: 0 30upx 0 102upx;
+}
+
+.cu-timeline>.cu-item>.content{
+    background-color: initial!important;
+    padding: 12upx 0 12upx 0;
+    border-bottom: 0.03125rem solid #ddd;
+}
+

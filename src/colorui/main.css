@@ -1247,7 +1247,7 @@ button.cuIcon.lg {
 .cu-list.menu-avatar>.cu-item .content .cu-tag.sm {
 	display: inline-block;
 	margin-left: 10upx;
-	height: 28upx;
+	height: 32upx;
 	font-size: 16upx;
 	line-height: 32upx
 }
@@ -1269,7 +1269,7 @@ button.cuIcon.lg {
 }
 
 .cu-list.menu-avatar.comment>.cu-item {
-	padding: 30upx 30upx 30upx 120upx;
+	padding: 30upx 30upx 30upx 144upx;
 	height: auto
 }
 
