@@ -1,17 +1,34 @@
 {
   "pages": [
-    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
     {
-      "path": "pages/index/index",
+      "path": "pages/CounselorsPage",
       "style": {
-        "navigationBarTitleText": "uni-app"
+        "navigationBarTitleText": "Counselors"
+      }
+    },
+    {
+      "path": "pages/CounselorProfilePage",
+      "style": {
+        "navigationBarTitleText": "Profile"
+      }
+    },
+    {
+      "path": "pages/BookingPage",
+      "style": {
+        "navigationBarTitleText": "Booking"
       }
     }
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarBackgroundColor": "#F0F0F0",
+    "backgroundColor": "#F0F0F0",
+    "app-plus": {
+      "h5": {
+        "navigationStyle": "custom",
+        "titleView": false
+      }
+    }
   }
 }

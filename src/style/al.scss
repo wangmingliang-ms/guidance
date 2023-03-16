@@ -1,0 +1,76 @@
+@import "../uni.scss";
+
+.margin-bottom-none {
+  margin-bottom: 0 !important;
+}
+.al-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f0f0f0;
+  &-head {
+  }
+
+  &-body {
+    flex: 1;
+    overflow: scroll;
+  }
+}
+.al-card {
+  margin: 20rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8rpx;
+  color: #666666;
+  &-head {
+    line-height: 80rpx;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12rpx 40rpx;
+  }
+
+  &-title {
+    font-size: 32rpx;
+    font-weight: bold;
+
+    .icon {
+      margin-right: 16rpx;
+    }
+  }
+
+  &-body {
+    flex: 1;
+    overflow: scroll;
+  }
+}
+
+.al-form {
+  &-item {
+    background-color: #ffffff;
+    padding: 4rpx 30rpx;
+    display: flex;
+    align-items: center;
+    min-height: 68rpx;
+    font-size: 28rpx;
+    margin-bottom: 16rpx;
+
+    &-icon {
+      font-size: 32rpx;
+    }
+
+    &-tail-icon {
+      margin-left: 16rpx;
+    }
+  }
+}
+
+.cu-tag {
+  border-width: 1rpx;
+  &.dashed {
+    border-style: dashed;
+  }
+  &.none {
+    border-style: solid;
+    border-color: whi;
+  }
+}
